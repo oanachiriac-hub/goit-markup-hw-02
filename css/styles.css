@@ -28,6 +28,10 @@ a{
     line-height: 30.52px;
 }
 
+.current{
+    color: #2196F3;
+}
+
 .nav, .contact-link-header{
     list-style-type: none;
 }
@@ -185,6 +189,14 @@ address{
 
 .buttons:hover{
     color: white;
+}
+
+.h2-portofolio{
+    display: none;
+}
+
+.pictures{
+    margin-top: 10px;
 }
 
 .pictures-title{
