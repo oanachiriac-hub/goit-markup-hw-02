@@ -81,6 +81,11 @@ a{
     cursor: pointer;
 }
 
+.request:hover{
+    color: var(--color-button);
+    background-color: white;
+}
+
 .homepg {
     background-color: #2F303A;
 }
