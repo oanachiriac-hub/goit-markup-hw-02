@@ -1,8 +1,9 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link 
-href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
-rel="stylesheet">
+:root {
+    --color-button: #2196F3;
+    --color-text:#757575;
+    --text-fontfamily: 'Roboto', sans-serif;
+    --title-fontfamily: 'Raleway', sans-serif;
+}
 
 a{
     text-decoration: none;
@@ -15,21 +16,22 @@ a{
 
 .web{
     color: #2196F3;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30.52px;
-}
-.header-studio{
-    color: black;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--title-fontfamily);
     font-weight: 700;
     font-size: 26px;
     line-height: 30.52px;
 }
 
-.current{
-    color: #2196F3;
+.header-studio{
+    color: black;
+    font-family: var(--title-fontfamily);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+
+.nav-current{
+    color: var(--color-button);
 }
 
 .nav, .contact-link-header{
@@ -49,11 +51,11 @@ a{
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
-    color: #757575;
+    color: var(--color-text);
 }
 
 .nav:hover, .contact-link-header:hover{
-    color: #2196F3;
+    color: var(--color-button);
 }
 
 #title{
@@ -68,7 +70,7 @@ a{
 }
 
 .request{
-    background-color: #2196F3;
+    background-color: var(--color-button);
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -87,20 +89,19 @@ ul{
 }
 
 .attention-details{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--text-fontfamily);
     font-weight: 700px;
     font-size: 14px;
     line-height: 16.41px;
 }
 
 .details{
-    color:#757575;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    color: var(--color-text);
+    font-family: var(--text-fontfamily);
 }
 
 .section {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--text-fontfamily);
     font-weight: 700;
     font-size: 36px;
     line-height: 42.19px;
@@ -108,13 +109,13 @@ ul{
 }
 
 .job{
-    color:#757575;
-    font-family: 'Roboto', sans-serif;
+    color:var(--color-text);
+    font-family: var(--text-fontfamily);
     text-align: center;
 }
 
 .name{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--text-fontfamily);
     font-weight: 500;
     font-size: 16px;
     line-height: 18.75px;
@@ -133,7 +134,7 @@ footer{
 
 .footer-studio{
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--title-fontfamily);
     font-weight: 700;
     font-size: 26px;
     line-height: 30.52px;
@@ -146,10 +147,10 @@ a{
 address{
     font-style: normal;
 }
+
 .address{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16.41px;
     text-decoration: none;
@@ -158,17 +159,16 @@ address{
 .contact-link-footer{
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16.41px;
 }
 
 .contact-link-footer:hover{
-    color: #2196F3;
+    color: var(--color-button);
 }
 
 .button-portofolio{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--text-fontfamily)
     font-weight: 500;
     background-color: #F5F4FA;
     color: #212121;
@@ -180,11 +180,11 @@ address{
 }
 
 .button-portofolio:hover{
-    background-color: #2196F3;
+    background-color: var(--color-button);
 }
 
 .button-portofolio:focus{
-    background-color: #2196F3;
+    background-color: var(--color-button);
 }
 
 .buttons:hover{
@@ -200,7 +200,7 @@ address{
 }
 
 .pictures-title{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--text-fontfamily);
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -208,8 +208,7 @@ address{
 }
 
 .pics-description{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: var(--text-fontfamily);
     font-size: 16px;
     line-height: 30px;
 }
