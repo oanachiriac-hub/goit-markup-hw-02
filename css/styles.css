@@ -83,7 +83,7 @@ a{
 
 .request:hover{
     color: var(--color-button);
-    background-color: white;
+    background-color: #1a7bcb;
 }
 
 .homepg {
@@ -187,10 +187,12 @@ address{
 
 .button-portofolio:hover{
     background-color: var(--color-button);
+    color: white;
 }
 
 .button-portofolio:focus{
     background-color: var(--color-button);
+    color: white;
 }
 
 .buttons:hover{
