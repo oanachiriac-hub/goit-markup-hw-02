@@ -83,7 +83,8 @@ a{
 
 .request:hover{
     color: var(--color-button);
-    background-color: #1a7bcb;
+    background-color: #188CE8;
+    color: white;
 }
 
 .homepg {
