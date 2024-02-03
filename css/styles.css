@@ -3,7 +3,7 @@
     --color-text:#757575;
     --text-fontfamily: 'Roboto', sans-serif;
     --title-fontfamily: 'Raleway', sans-serif;
-    --font-weight-title: 700;
+    --font-weight-title: 800;
 }
 
 a{
@@ -16,19 +16,19 @@ a{
 }
 
 .web{
-    color: #2196F3;
+    color: #4D5AE5;
     font-family: var(--title-fontfamily);
     font-weight: var(--font-weight-title);
-    font-size: 26px;
-    line-height: 30.52px;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .header-studio{
-    color: black;
+    color: #2E2F42;
     font-family: var(--title-fontfamily);
     font-weight: var(--font-weight-title);
-    font-size: 26px;
-    line-height: 30.52px;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .nav-current{
@@ -42,16 +42,16 @@ a{
 .nav{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #212121;
-    line-height: 16.41px;
+    line-height: 24px;
 }
 
 .contact-link-header{
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: var(--color-text);
 }
 
@@ -135,44 +135,26 @@ body{
 }
 
 footer{
-    background-color: #2F303A;
+    background-color: #2E2F42;
     text-decoration: none;
 }
 
 .footer-studio{
-    color: white;
+    color: #F4F4FD;
     font-family: var(--title-fontfamily);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 30.52px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer-text{
+    color: #FFFFFF;
 }
 
 a{
     text-decoration: none;
 }
 
-address{
-    font-style: normal;
-}
-
-.address{
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 16.41px;
-    text-decoration: none;
-}
-
-.contact-link-footer{
-    color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 16.41px;
-}
-
-.contact-link-footer:hover{
-    color: var(--color-button);
-}
 
 .button-portofolio{
     font-family: var(--text-fontfamily)
