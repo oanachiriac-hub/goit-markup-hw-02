@@ -151,6 +151,29 @@ footer{
     color: #FFFFFF;
 }
 
+address{
+    font-style: normal;
+}
+
+.address{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-decoration: none;
+}
+
+.contact-link-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.contact-link-footer:hover{
+    color: var(--color-button);
+}
+
 a{
     text-decoration: none;
 }
